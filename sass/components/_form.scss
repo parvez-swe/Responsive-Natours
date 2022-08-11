@@ -45,6 +45,7 @@
         transition: all .3s;
     }
 
+    //sibling selector down below:
     &__input:placeholder-shown + &__label {
         opacity: 0;
         visibility: hidden;

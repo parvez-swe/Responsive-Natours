@@ -1,16 +1,16 @@
 .bg-video {
-    position: absolute;
+    position: absolute;     //for this absolute positioning its parent section could be reletive position
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: -1;
+    z-index: -1;    //as it stay on the over of all the element on this section
     opacity: .15;
     overflow: hidden;
 
-    &__content {
+    &__content {            //for preventing overflow
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: cover; //ocufy the whole section //it fill the etire parent element while still maintaining it's axpect ratio
     }
 }
